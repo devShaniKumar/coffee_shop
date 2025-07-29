@@ -1,0 +1,145 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #3b1e22;
+  color: white;
+}
+
+coffee1.jpeg{
+    background-color: #2a1518;
+    
+}
+body {
+  background-color: #3b1e22; /* Example: beige */
+}
+
+/* Navbar */
+header {
+  background: transparent;
+  padding: 20px 60px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #f5a623;
+}
+.nav-icon {
+  font-size: 22px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text .highlight {
+  color: #f5a623;
+  font-style: italic;
+  font-size: 22px;
+}
+.hero-text h1 {
+  font-size: 42px;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+.hero-text p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #ddd;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.btn.primary {
+  background: #f5a623;
+  color: white;
+}
+.btn.primary:hover {
+  background: #d4881d;
+}
+.btn.secondary {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.btn.secondary:hover {
+  background: white;
+  color: #3b1e22;
+}
+.hero-image img {
+  width: 350px;
+  border-radius: 15px;
+}
+
+/* Swiper Section */
+.testimonials {
+  padding: 60px;
+  text-align: center;
+}
+.swiper {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+.swiper-slide {
+  background: #4b2a2f;
+  border-radius: 15px;
+  padding: 40px;
+}
+.swiper-slide h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #f5a623;
+}
+.swiper-slide p {
+  font-size: 16px;
+  color: #eee;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2a1518;
+  color: #aaa;
+  margin-top: 40px;
+}
